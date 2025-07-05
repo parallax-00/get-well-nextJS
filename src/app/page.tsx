@@ -55,11 +55,11 @@ export default function Home() {
               <div className="text-oliveSmoke text-base leading-relaxed">
                 <p>
                   Finding time and opportunities to care for ourselves can be
-                  incredibly challenging in today's busy and demanding world. I
-                  believe therapy offers a dedicated space for self-care,
-                  providing the support and tools needed to improve this
-                  essential practice. Therapy can help individuals identify and
-                  clarify their goals, values, and the various elements that
+                  incredibly challenging in today&apos;s busy and demanding
+                  world. I believe therapy offers a dedicated space for
+                  self-care, providing the support and tools needed to improve
+                  this essential practice. Therapy can help individuals identify
+                  and clarify their goals, values, and the various elements that
                   contribute to their well-being, recognizing that these aspects
                   vary from person to person.
                 </p>
@@ -81,7 +81,7 @@ export default function Home() {
             <hr className="w-4/5 md:w-[800px] h-1 mx-auto my-4 bg-about-font border-0 rounded-sm md:my-10 dark:bg-gray-700" />
           </div>
         </section>
-        
+
         {/* //!Services Section */}
         <section
           className="data-scroll-section group py-20 px-6 md:px-20 bg-hero-background "

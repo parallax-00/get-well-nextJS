@@ -10,6 +10,109 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-about-background: #bdd3ce;
+  --color-about-font: #708c69;
+  --color-hero-background: #d8d4c9;
+  --color-hero-font: #275838;
+  --color-honey: #e1c6a1;
+  --color-burgundy: #5a3a3a;
+  --color-stonePetal: #bfada3;
+  --color-oliveSmoke: #262109;
+  --color-bone: #f2f0e9;
+  --color-marian: #49596b;
+  --color-stormBlue: #537179;
+  --color-vanillaDust: #bfae99;
+  --color-creme: #ced2d4;
+  --color-slopes: #d3d1ce;
+  --color-mountainside: #262e36;
+  --color-x11: #beb3c3;
+  --color-gunmetal: #302e3b;
+  --color-cbeige: #fff7e6;
+  --color-canvas: #eae6e0;
+  --color-sprout: #708c82;
+}
+
+.hero-1 {
+  background: linear-gradient(#fe320a, #e1c6a1);
+  top: 75%;
+  right: -5%;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: anime12;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  filter: blur(25px);
+}
+.hero-01 {
+  background: linear-gradient(#e1c6a1, #fe320a);
+  top: 65%;
+  right: -10%;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 50%;
+  position: absolute;
+  animation-name: anime1;
+  animation-duration: 2ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  filter: blur(25px);
+}
+.hero-2 {
+  top: 10px;
+  left: -1px;
+  background: linear-gradient(#275838, #5a3a3a);
+  height: 30vw;
+  position: absolute;
+  width: 30vw;
+  border-radius: 50%;
+  filter: blur(25px);
+  animation-name: anime11;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.hero-02 {
+  background: linear-gradient(#275838, #5a3a3a);
+  top: 10px;
+  left: -1px;
+  height: 30vw;
+  position: absolute;
+  width: 30vw;
+  border-radius: 50%;
+  filter: blur(25px);
+  animation-name: anime12;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes aime1 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes anime11 {
+  from {
+    transform: translate(55%, -3%);
+  }
+  to {
+    transform: translate(0%, 10%);
+  }
+}
+
+@keyframes anime12 {
+  from {
+    transform: translate(5%, -20%);
+  }
+  to {
+    transform: translate(30%, 30%);
+  }
 }
 
 @media (prefers-color-scheme: dark) {
